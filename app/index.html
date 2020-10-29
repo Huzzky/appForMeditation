@@ -10,10 +10,10 @@
 <body>
     <div>
         <div>
-            <button class="btn-music">Play Sea</button>
-            <button class="btn-music">Play Fire</button>
-            <button class="btn-music">Play SunDay</button>
-            <button class="btn-music">Play Cafe</button>
+            <button class="btn-music" onclick="funcSetMusic('sea')">Play Sea</button>
+            <button class="btn-music" onclick="funcSetMusic('fire')">Play Fire</button>
+            <button class="btn-music" onclick="funcSetMusic('sunDay')">Play SunDay</button>
+            <button class="btn-music" onclick="funcSetMusic('cafe')">Play Cafe</button>
         </div>
         <div>
             <div class="div-time">
@@ -23,7 +23,7 @@
             </div>
             <div>
                 <div class="btn-stop-or-play">
-                    <img src="/icon/play.svg" id="imgMainBtn"  class="imgMainBtn" alt="" width="256px"  ></img>
+                    <img src="/icon/play.svg" id="imgMainBtn"  class="imgMainBtn" alt="" onclick="changeBtn(this)" width="256px"  ></img>
                     
                 </div>
             </div>
